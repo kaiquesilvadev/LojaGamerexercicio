@@ -1,5 +1,7 @@
 package com.generation.lojaGamer.model;
 
+
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,37 +10,18 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+
 @Entity
-@Table(name = "tb_produto")
-public class Produto {
+@Table(name = " tb_categoria")
+public class Categoria {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id ;
 	
 	@NotBlank
-	@Size(max = 50  )
-	private  String nome ;
-	
-	@NotBlank
-	@Size(max = 255  )
-	private String descricao ;
-	
-	@NotBlank
-	@Size(max = 255  )
-	private String imagem;
-	
-	@NotBlank
-	private Double valor;
-	
-
-	public Double getValor() {
-		return valor;
-	}
-
-	public void setValor(Double valor) {
-		this.valor = valor;
-	}
+	@Size(max = 255)
+	private String nome;
 
 	public Long getId() {
 		return id;
@@ -54,22 +37,6 @@ public class Produto {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-
-	public String getDescricao() {
-		return descricao;
-	}
-
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
-	}
-
-	public String getImagem() {
-		return imagem;
-	}
-
-	public void setImagem(String imagem) {
-		this.imagem = imagem;
 	}
 	
 	
