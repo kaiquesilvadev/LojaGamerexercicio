@@ -1,4 +1,4 @@
-package com.generation.lojaGame.security;
+package com.generation.lojaGamer.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

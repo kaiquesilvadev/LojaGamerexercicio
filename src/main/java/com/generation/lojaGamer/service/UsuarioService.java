@@ -1,4 +1,4 @@
-package com.generation.lojaGame.service;
+package com.generation.lojaGamer.service;
 
 import java.util.Optional;
 
@@ -11,10 +11,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.generation.lojaGame.security.JwtService;
 import com.generation.lojaGamer.model.Usuario;
 import com.generation.lojaGamer.model.UsuarioLogin;
 import com.generation.lojaGamer.repository.UsuarioRepository;
+import com.generation.lojaGamer.security.JwtService;
 
 @Service // indica que essa classe é uma classe de serviços
 public class UsuarioService {

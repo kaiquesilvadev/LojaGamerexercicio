@@ -1,4 +1,4 @@
-package com.generation.lojaGame.security;
+package com.generation.lojaGamer.security;
 
 import java.util.Collection;
 import java.util.List;
