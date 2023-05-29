@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.security;
+package com.generation.lojaGame.security;
 
 import java.security.Key;
 import java.util.Date;

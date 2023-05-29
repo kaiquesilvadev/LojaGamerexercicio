@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.service;
+package com.generation.lojaGame.service;
 
 import java.util.Optional;
 
@@ -11,7 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.generation.blogpessoal.security.JwtService;
+import com.generation.lojaGame.security.JwtService;
 import com.generation.lojaGamer.model.Usuario;
 import com.generation.lojaGamer.model.UsuarioLogin;
 import com.generation.lojaGamer.repository.UsuarioRepository;

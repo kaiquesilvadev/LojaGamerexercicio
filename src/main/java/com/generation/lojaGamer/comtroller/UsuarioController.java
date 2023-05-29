@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blogpessoal.service.UsuarioService;
+import com.generation.lojaGame.service.UsuarioService;
 import com.generation.lojaGamer.model.Usuario;
 import com.generation.lojaGamer.model.UsuarioLogin;
 import com.generation.lojaGamer.repository.UsuarioRepository;
